@@ -1,0 +1,80 @@
+/* Định dạng cho signup-container để bao phủ toàn bộ màn hình */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  
+}
+
+/* Định dạng cho nút Back ở góc trên cùng bên trái */
+.signup-container .back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #f3f4f6;
+  border-color: #f3f4f6;
+  color: #1f2937;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.signup-container .back-button:hover {
+  background-color: #e5e7eb;
+  border-color: #e5e7eb;
+  color: #111827;
+}
+
+/* Định dạng cho signup-page ở giữa màn hình */
+.signup-page {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  text-align: center;
+}
+
+/* Các định dạng khác cho form và input */
+.signup-page .ant-form-item-label > label {
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 16px;
+}
+
+.signup-page .ant-input,
+.signup-page .ant-input-password {
+  height: 45px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  transition: border-color 0.3s;
+}
+
+.signup-page .ant-input:focus,
+.signup-page .ant-input-password:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+.signup-page .ant-btn-primary {
+  width: 100%;
+  height: 45px;
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.signup-page .ant-btn-primary:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  transform: scale(1.02);
+}
+
+.signup-page .ant-message {
+  top: 10px;
+}

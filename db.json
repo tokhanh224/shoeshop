@@ -334,6 +334,11 @@
       "email": "I@gmail.com",
       "password": "$2a$10$mFRg7o8a6lBkCOVUx9a8n.H7.teki3L7t0mMU2V6R6U9GHVfh6hX6",
       "id": 6
+    },
+    {
+      "email": "Wew@gmail.com",
+      "password": "$2a$10$PmjXisbHq1vfFJJIh2.LROeirIuwUHe3XOq7khZwGODUdP8trYOBe",
+      "id": 7
     }
   ]
 }
